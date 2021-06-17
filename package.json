@@ -1,0 +1,25 @@
+{
+  "name": "vuepress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress-plugin-image": "^1.0.4"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "description": "'博客文档'",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/wumeixuan/vue-press.git"
+  },
+  "author": "'不以by'"
+}
